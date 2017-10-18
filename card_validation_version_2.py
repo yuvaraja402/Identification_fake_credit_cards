@@ -1,15 +1,17 @@
 # program modified for creating .exe
 # that is executable file
 
-#card 1 exmaple for checking  = [4,6,1,9,3,3,0,1,1,0,4,4,4,4,9,0]
-#card 2 example for checking = [4,4,1,7,1,2,3,4,5,6,7,8,9,1,1,3]
+#card 1 example for checking  = 4619 3301 1044 4490
+#card 2 example for checking = 4417 1234 5678 9113
 
 from time import *
 
+card_input = input('Enter card digit :')
+card_digits = str(card_input)
 card = []
-for a in range(16):
-    temp_int = input('Enter card digit :')
-    card.append(temp_int)
+for i in card_digits:
+    card.append(int(i))
+card
 
 i=0
 j=1
