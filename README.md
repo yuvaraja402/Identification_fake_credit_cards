@@ -7,3 +7,37 @@ URL : https://github.com/yuvaraja402/type_of_card_and_validation/blob/master/car
 (Run the executable as ADMINISTRATOR if any hiccups)
 
 URL : https://github.com/yuvaraja402/type_of_card_and_validation/blob/master/dist/card_validation_version_2.exe
+
+# Card prefix's for understanding : 
+### MasterCard prefix's : 
+5
+
+### American express : 
+3
+
+### Visa card prefix's : 
+4
+
+### Discover card prefix's combinations :
+
+6011
+
+65
+
+644
+
+645
+
+646
+
+647
+
+648
+
+649
+
+622126
+
+622925
+ 
+### Any other card starting with '6' would be : RuPay
