@@ -73,7 +73,29 @@ if card[0] == 4:
     print("\nTYPE = VISA CARD")
 elif card[0] == 5:
     print("\nTYPE = MASTER CARD")
+    
+elif card[0:4] == [6,0,1,1]:
+    print("\nTYPE = DISCOVER CARD ")
+elif card[0:2] == [6,5]:
+    print("\nTYPE = DISCOVER CARD ")
+elif card[0:3] == [6,4,4]:
+    print("\nTYPE = DISCOVER CARD ")
+elif card[0:3] == [6,4,5]:
+    print("\nTYPE = DISCOVER CARD ")
+elif card[0:3] == [6,4,6]:
+    print("\nTYPE = DISCOVER CARD ")
+elif card[0:3] == [6,4,7]:
+    print("\nTYPE = DISCOVER CARD ")
+elif card[0:3] == [6,4,8]:
+    print("\nTYPE = DISCOVER CARD ")
+elif card[0:3] == [6,4,9]:
+    print("\nTYPE = DISCOVER CARD ")
+elif card[0:6] == [6,2,2,1,2,6]:
+    print("\nTYPE = DISCOVER CARD ")
+elif card[0:6] == [6,2,2,9,2,5]:
+    print("\nTYPE = DISCOVER CARD ")
+    
 elif card[0] == 6:
-    print("\nTYPE = RUPAY / DISCOVER CARD")
+    print("\nTYPE = RUPAY CARD")
 
 sleep(30)
