@@ -1,5 +1,5 @@
 # Find type of card and payment gateway
-This python script will find whether the card entered is Credit/Debit card.And also the type of card - RuPay / MasterCard / Discover / Visa.
+This python script will find whether the card entered is Credit/Debit card based on Luhn Formula. Also to find the type of card - RuPay / MasterCard / Discover / Visa.
 # Posting Quick links here
 ### Python Script :
 URL : https://github.com/yuvaraja402/type_of_card_and_validation/blob/master/card_validation_version_2.py
