@@ -32,7 +32,10 @@ This program serves the purpose in the prevention of payment frauds. <i><b>Sourc
 ### Implementation Snapshots :
 <b>Snapshots are from [Executable program](https://github.com/yuvaraja402/Identification_fake_credit_cards/blob/master/dist/card_validation/card_validation.exe)</b>
 
-<img src = 'https://github.com/yuvaraja402/Identification_fake_credit_cards/blob/master/output%20snapshots/discover.jpg'>
-<img src = 'https://github.com/yuvaraja402/Identification_fake_credit_cards/blob/master/output%20snapshots/mastercard.PNG'>
-<img src = 'https://github.com/yuvaraja402/Identification_fake_credit_cards/blob/master/output%20snapshots/rupay.PNG'>
-<img src = 'https://github.com/yuvaraja402/Identification_fake_credit_cards/blob/master/output%20snapshots/visa.PNG'>
+<img src = 'https://github.com/yuvaraja402/Identification_fake_credit_cards/blob/master/output%20snapshots/discover.jpg' width=600>
+
+<img src = 'https://github.com/yuvaraja402/Identification_fake_credit_cards/blob/master/output%20snapshots/mastercard.PNG' width=600>
+
+<img src = 'https://github.com/yuvaraja402/Identification_fake_credit_cards/blob/master/output%20snapshots/rupay.PNG' width=600>
+
+<img src = 'https://github.com/yuvaraja402/Identification_fake_credit_cards/blob/master/output%20snapshots/visa.PNG' width=600>
