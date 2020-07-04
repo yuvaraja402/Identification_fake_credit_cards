@@ -1,43 +1,26 @@
-# Find type of card and payment gateway
-This python script will find whether the card entered is Credit/Debit card based on Luhn Formula. Also to find the type of card - RuPay / MasterCard / Discover / Visa.
-# Posting Quick links here
-### Python Script :
-URL : https://github.com/yuvaraja402/type_of_card_and_validation/blob/master/card_validation_version_2.py
-### Executable file to check your card : 
-(Run the executable as ADMINISTRATOR if any hiccups)
+# Identification of Fake Credit and Debit cards during Payment Gateways
+<b>Motivation</b> :thought_balloon: : During product checkouts in E-commerce websites I have noticed as I type just 4 to 5 digits of my debit card, the checkout system automatically identifies the type of card and payment network. But to my surprise at the time of this project, the E-commerce website did not support or recognise all payment networks. So, I decided to develop my program that will identify all payment networks.
 
-URL : https://github.com/yuvaraja402/type_of_card_and_validation/blob/master/dist/card_validation_version_2.exe
+<b>Objective</b> :dart: : Develop a script to identify fake credit card combinations at time of payments by calculating card numbers over Luhn formula. Also, successfully recognize credit card’s payment network provider such as <b><i>Mastercard, Visa, American Express, Discover and RuPay(India's newly government introduced payment network).</i></b>
 
-# Card prefix's for understanding : 
-### MasterCard prefix's : 
-5
+### Disclaimer :
+User data is not collected by this program. This project intention is to show how payment systems work to operate and functionalities that can be improvised. <b>For educational purposes only.</b>
 
-### American express : 
-3
+### Quick links :link::
+[Python code]()
 
-### Visa card prefix's : 
-4
+[Executable program]() - Enables the user to interact with the program and run card validation. 
 
-### Discover card prefix's combinations :
+### Understanding Card prefix's :
+Payment Network | Card Prefix's
+----------------|---------------
+American Express|3
+Discover|65, 644, 645, etc
+MasterCard|5
+Rupay|6
+Visa|4
 
-6011
+For <b>RuPay</b> card : The combinations that do not validate as Discover card fall under RuPay card combination.
 
-65
-
-644
-
-645
-
-646
-
-647
-
-648
-
-649
-
-622126
-
-622925
- 
-### Any other card starting with '6' would be : RuPay
+### Verdict : 
+This program serves the purpose in the prevention of payment frauds. <i><b>Source code can be integrated</i></b> with any E-commerce website and existing payment networks to recognise the type of cards and their payment networks. 
