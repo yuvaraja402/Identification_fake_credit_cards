@@ -1,7 +1,7 @@
-# Identification of Fake Credit and Debit card :credit_card: combinations during Payment Gateways
-<b>Motivation</b> :thought_balloon: : During product checkouts in E-commerce websites I have noticed as I type just 4 to 5 digits of my debit card :credit_card:, the checkout system automatically identifies the type of card and payment network. But to my surprise at the time of this project, the E-commerce website did not support or recognise all payment networks. So, I decided to develop a program that will identify all payment networks.
+# Identification of Fake Credit and Debit card :credit_card: combinations and payment networks during Payment Gateway
+<b>Motivation</b> :thought_balloon: : During product :package: checkouts in <b>E-commerce websites</b> I have noticed as I type just 4 to 5 digits of my debit card :credit_card:, the website's payment system automatically identifies the type of card I have and its payment network. But to my surprise at the time of this project, the E-commerce websites like <b>Ebay and Amazon</b> did not recognise all payment networks. 
 
-<b>Objective</b> :dart: : Develop a script to identify fake credit card combinations at time of payments by calculating card numbers over Luhn formula. Also, successfully recognize credit card’s payment network provider such as <b><i>Mastercard, Visa, American Express, Discover and RuPay(India's newly government introduced payment network).</i></b>
+<b>Objective</b> :dart: : Develop a program that will identify fake credit card combinations by calculating card digits over Luhn formula. Also, successfully recognize credit card’s payment network provider such as <b><i>Mastercard, Visa, American Express, Discover and RuPay(India's newly government introduced payment network).</i></b>
 
 ### Disclaimer :
 User data is not collected by this program. This project intention is to show how payment systems work to operate and functionalities that can be improvised. <b>For educational purposes only.</b>
