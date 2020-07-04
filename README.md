@@ -26,10 +26,10 @@ Visa|<img src="https://img.icons8.com/dusk/48/000000/visa.png">|4
 
 For <b>RuPay</b> card : The combinations that do not validate as Discover card fall under RuPay card combination.
 
-### Verdict : 
+### Verdict :pushpin:: 
 This program serves the purpose in the prevention of payment frauds. <i><b>Source code can be integrated</i></b> with any E-commerce website and existing payment networks to validate the cards :credit_card: and identify their payment networks.
 
-### Implementation Snapshots :
+### Implementation Snapshots :camera::
 <b>Snapshots are from [Executable program](https://github.com/yuvaraja402/Identification_fake_credit_cards/blob/master/dist/card_validation/card_validation.exe)</b>
 
 <img src = 'https://github.com/yuvaraja402/Identification_fake_credit_cards/blob/master/output%20snapshots/discover.jpg' width=600>
